@@ -1,0 +1,108 @@
+.footer {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.footer__container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item-logo {
+  display: flex;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.footer__item-contact {
+  width: 50%;
+}
+
+.footer__item-nav__list {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.footer__item-nav__item:first-child {
+  font-weight: bold;
+}
+
+.footer__item-nav__item {
+  margin-bottom: 1em;
+}
+
+.footer__item-nav__item a {
+  color: grey;
+}
+
+.footer__item-nav__item a:hover {
+  color: var(--cherry-color);
+}
+
+/* Footer Contact Form */
+.footer__item-contact__title {
+  margin-bottom: 1em;
+}
+
+.footer__item-form {
+  width: 100%;
+}
+
+.footer__form--input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.9em;
+}
+
+.footer__form--input label {
+  margin-bottom: 0.5em;
+  font-size: 0.9rem;
+}
+
+.form--input__name,
+.form--input__message {
+  border: 2px solid rgb(221, 221, 221);
+  padding: 1em;
+  font-size: 1em;
+}
+
+.form--input__name:focus,
+.form--input__message:focus {
+  outline: none;
+  border: 2px solid rgb(187, 187, 187);
+}
+
+.footer__item-form__button {
+  width: 100%;
+  padding: 0.9em 0;
+  font-size: 0.9em;
+  color: white;
+  background-color: var(--cherry-color);
+  border: none;
+  cursor: pointer;
+}
+
+.footer__item-form__button:hover {
+  background-color: dimgray;
+}
+
+/* Copyright */
+.footer__copyright {
+  height: 4em;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7em;
+}
+
+.footer__copyright a {
+  font-weight: bold;
+  color: var(--cherry-color);
+}

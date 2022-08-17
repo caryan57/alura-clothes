@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Clothes</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="stylesheet" href="./css/hero/hero.css" />
+    <link rel="stylesheet" href="./css/carrousel/carrousel.css" />
+    <link rel="stylesheet" href="./css/footer/footer.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <i class="logo-icon cherry fa-solid fa-shirt"></i>
+            <a class="logo-text" href="http://"
+              ><h1><span class="cherry">Alura</span>Clothes</h1></a
+            >
+          </div>
+          <form action="" class="header__search-form">
+            <input
+              type="text"
+              class="header__search-form__input"
+              placeholder="¿Qué deseas buscar?"
+              maxlength="43"
+            />
+            <button class="header__search-form__button" type="submit" value="">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="header__login">
+          <input class="header__login__button" type="button" value="Login" />
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="overlay"></div>
+          <img
+            class="hero__content__background"
+            src="./assets/img/hero_img.jpg"
+            alt=""
+          />
+          <div class="hero__content">
+            <div class="hero__content__info">
+              <h2 class="hero__content__info-title">¡Ofertas de Alura!</h2>
+              <p class="hero__content__info-description">
+                Hasta un 33% de descuento en productos seleccionados
+              </p>
+
+              <input
+                class="hero__content__info-button"
+                type="button"
+                value="Ver Catálogo"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="carrousel">
+          <div class="carrousel__title">
+            <h3>Lo más vendido</h3>
+            <div class="carrousel__title-more">
+              <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <ul class="carrousel__gallery">
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/pants_1_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Workday Brown Pants</p>
+                <p class="carrousel__content__price">$899.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+              <span class="carrousel__content__discount">-33%</span>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/t-shirt_1_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Classic Gray Man</p>
+                <p class="carrousel__content__price">$699.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/t-shirt_1_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Classic Black Woman</p>
+                <p class="carrousel__content__price">$699.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/pants_1_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Street Verano Pants</p>
+                <p class="carrousel__content__price">$799.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/t-shirt_2_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">V-Neck Verano Slim</p>
+                <p class="carrousel__content__price">$599.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+          </ul>
+          <div class="carrousel__title">
+            <h3>Para hombre</h3>
+            <div class="carrousel__title-more">
+              <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <ul class="carrousel__gallery">
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/shirt_2_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Iconic Polo Gray</p>
+                <p class="carrousel__content__price">$719.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/pants_3_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Khaki Urban Fit</p>
+                <p class="carrousel__content__price">$1,192.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/t-shirt_3_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Refined Polo Green</p>
+                <p class="carrousel__content__price">$719.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+              <span class="carrousel__content__discount">-33%</span>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/jacket_1_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Urban Jacket Marine</p>
+                <p class="carrousel__content__price">$1,839.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/jeans_1_man.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Workday Jeans Man</p>
+                <p class="carrousel__content__price">$1,032.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+              <span class="carrousel__content__discount">-25%</span>
+            </li>
+          </ul>
+          <div class="carrousel__title">
+            <h3>Para mujer</h3>
+            <div class="carrousel__title-more">
+              <a href="">Ver más <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <ul class="carrousel__gallery">
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/dress_2_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Short Cap Dress</p>
+                <p class="carrousel__content__price">$1,290.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/jacket_1_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Fore White Jacket</p>
+                <p class="carrousel__content__price">$1,179.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+              <span class="carrousel__content__discount">-28%</span>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/pants_2_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Relaxed Khaki Verano</p>
+                <p class="carrousel__content__price">$699.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/sweater_2_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">Iconic Woman Sweatshirt</p>
+                <p class="carrousel__content__price">$699.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+              <span class="carrousel__content__discount">-33%</span>
+            </li>
+            <li class="carrousel__gallery__item">
+              <div class="carrousel__image">
+                <img src="./assets/img/clothes/sweater_3_woman.webp" alt="" />
+              </div>
+              <div class="carrousel__content">
+                <p class="carrousel__content__title">C-Neck Cotton Classic</p>
+                <p class="carrousel__content__price">$699.00</p>
+                <a href="" class="carrousel__content_link">Ver producto</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__items">
+            <div class="footer__item-logo">
+              <i class="logo-icon cherry fa-solid fa-shirt"></i>
+              <a class="logo-text" href="http://"
+                ><p><span class="cherry">Alura</span>Clothes</p></a
+              >
+            </div>
+            <div class="footer__item-nav">
+              <ul class="footer__item-nav__list">
+                <li class="footer__item-nav__item">AluraClothes ®</li>
+                <li class="footer__item-nav__item">
+                  <a href="">Quienes somos</a>
+                </li>
+                <li class="footer__item-nav__item">
+                  <a href="">Política de privacidad</a>
+                </li>
+                <li class="footer__item-nav__item">
+                  <a href="">Programa de lealtad</a>
+                </li>
+                <li class="footer__item-nav__item">
+                  <a href="">Nuestras tiendas</a>
+                </li>
+                <li class="footer__item-nav__item">
+                  <a href="">Quiero ser franquiciado</a>
+                </li>
+                <li class="footer__item-nav__item">
+                  <a href="">Anunciate con nosotros</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item-contact">
+              <h4 class="footer__item-contact__title">Escríbenos</h4>
+              <form action="" class="footer__item-form">
+                <div class="footer__form--input">
+                  <label for="name">Nombre</label>
+                  <input
+                    class="form--input__name"
+                    id="name"
+                    name="message"
+                    type="text"
+                    placeholder="Su nombre"
+                    maxlength="50"
+                  />
+                </div>
+                <div class="footer__form--input">
+                  <label for="message">Mensaje</label>
+                  <textarea
+                    class="form--input__message"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Ingrese su mensaje"
+                  ></textarea>
+                </div>
+                <input
+                  class="footer__item-form__button"
+                  type="button"
+                  value="Enviar mensaje"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>
+            Desarrollado por
+            <a href="https://www.linkedin.com/in/charlyolicor/" target="_blank"
+              >Carlos Olivares</a
+            >
+            | En el program ONE de Oracle y Alura - © 2022
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
