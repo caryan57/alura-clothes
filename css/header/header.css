@@ -1,9 +1,6 @@
 .header {
   padding: 2em 6em;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header__container {
@@ -16,6 +13,7 @@
   display: flex;
   font-size: 1.7rem;
   margin-right: 1.5em;
+  order: 1;
 }
 
 .logo-text {
@@ -26,6 +24,7 @@
 /* Form */
 .header__search-form {
   position: relative;
+  order: 2;
 }
 
 .header__search-form__input {
@@ -62,11 +61,80 @@
 
 /* Login */
 
+.header__login {
+  margin-left: auto;
+  order: 3;
+}
+
 .header__login__button {
-  padding: 1.2em 4em;
+  padding: 1.2em 5em;
   border: none;
   font-size: 0.9em;
   cursor: pointer;
   background-color: var(--cherry-color);
   color: white;
+}
+
+@media (max-width: 1099px) {
+  .header {
+    padding: 2em 2.5em;
+  }
+
+  /* Form */
+  .header__search-form__input {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 856px) {
+  /* Form */
+  .header__search-form__input {
+    width: 20rem;
+  }
+
+  .header__login__button {
+    padding: 1.2em 3em;
+  }
+}
+
+@media (max-width: 799px) {
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin-right: 0;
+  }
+
+  /* Form */
+  .header__search-form {
+    order: 3;
+  }
+
+  .header__search-form__input {
+    display: none;
+  }
+
+  .header__search-form__button {
+    position: relative;
+    right: 0;
+    width: auto;
+    font-size: 1.3em;
+  }
+
+  /* Login */
+  .header__login {
+    order: 2;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 475px) {
+  .header {
+    padding: 2em 1em;
+  }
+
+  .header__logo {
+    font-size: 1.3rem;
+  }
 }

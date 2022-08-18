@@ -80,3 +80,39 @@
   top: 0;
   letter-spacing: 0.1em;
 }
+
+@media (max-width: 799px) {
+  .carrousel {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 527px) {
+  .carrousel__title h3 {
+    font-size: 1.5em;
+  }
+
+  .carrousel__gallery {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 425px) {
+  .carrousel {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .carrousel__title {
+    padding: 0 1.5em;
+  }
+
+  .carrousel__title-more {
+    font-size: 0.9em;
+  }
+
+  .carrousel__gallery {
+    margin-bottom: 1em;
+  }
+}
