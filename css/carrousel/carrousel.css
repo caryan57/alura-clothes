@@ -37,7 +37,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  height: 463px;
 }
 
 .carrousel__gallery__item {
