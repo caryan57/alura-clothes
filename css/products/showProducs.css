@@ -1,0 +1,50 @@
+.full-carrousel {
+  width: 100%;
+  background-color: var(--main-bg-color);
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.full-carrousel__gallery {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 4rem;
+  height: 100%;
+}
+
+.carrousel__gallery__item {
+  margin-bottom: 4em;
+  cursor: default;
+}
+
+.carrousel__content__sku {
+  font-size: 0.9em;
+}
+
+.carrousel__gallery__actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5em;
+  font-size: 1.3em;
+  margin-right: 0.5em;
+}
+
+.carrousel__gallery__actions a {
+  margin-right: 1em;
+  color: var(--cherry-color);
+}
+
+.carrousel__button-add {
+  padding: 1em;
+  background-color: var(--cherry-color);
+  color: white;
+  cursor: pointer;
+}
+
+.carrousel__button-add a {
+  color: inherit;
+}
