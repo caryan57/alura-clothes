@@ -27,30 +27,7 @@
   </head>
   <body>
     <div class="app">
-      <header class="header">
-        <div class="header__container">
-          <div class="header__logo">
-            <i class="logo-icon cherry fa-solid fa-shirt"></i>
-            <a class="logo-text" href="http://"
-              ><h1><span class="cherry">Alura</span>Clothes</h1></a
-            >
-          </div>
-          <form action="" class="header__search-form">
-            <input
-              type="text"
-              class="header__search-form__input"
-              placeholder="¿Qué deseas buscar?"
-              maxlength="34"
-            />
-            <button class="header__search-form__button" type="submit" value="">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
-          <div class="header__login">
-            <input class="header__login__button" type="button" value="Login" />
-          </div>
-        </div>
-      </header>
+      <header-component></header-component>
       <main class="main">
         <section class="hero">
           <div class="overlay"></div>
@@ -256,83 +233,10 @@
           </ul>
         </section>
       </main>
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer__items">
-            <div class="footer__item-logo">
-              <i class="logo-icon cherry fa-solid fa-shirt"></i>
-              <a class="logo-text" href="http://"
-                ><p><span class="cherry">Alura</span>Clothes</p></a
-              >
-            </div>
-            <div class="footer__item-nav">
-              <ul class="footer__item-nav__list">
-                <li class="footer__item-nav__item">AluraClothes ®</li>
-                <li class="footer__item-nav__item">
-                  <a href="">Quienes somos</a>
-                </li>
-                <li class="footer__item-nav__item">
-                  <a href="">Política de privacidad</a>
-                </li>
-                <li class="footer__item-nav__item">
-                  <a href="">Programa de lealtad</a>
-                </li>
-                <li class="footer__item-nav__item">
-                  <a href="">Nuestras tiendas</a>
-                </li>
-                <li class="footer__item-nav__item">
-                  <a href="">Quiero ser franquiciado</a>
-                </li>
-                <li class="footer__item-nav__item">
-                  <a href="">Anunciate con nosotros</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer__item-contact">
-              <h4 class="footer__item-contact__title">Escríbenos</h4>
-              <form action="" class="footer__item-form">
-                <div class="footer__form--input">
-                  <label for="name">Nombre</label>
-                  <input
-                    class="form--input__name"
-                    id="name"
-                    name="message"
-                    type="text"
-                    placeholder="Su nombre"
-                    maxlength="50"
-                  />
-                </div>
-                <div class="footer__form--input">
-                  <label for="message">Mensaje</label>
-                  <textarea
-                    class="form--input__message"
-                    name="message"
-                    id="message"
-                    cols="30"
-                    rows="10"
-                    placeholder="Ingrese su mensaje"
-                  ></textarea>
-                </div>
-                <input
-                  class="footer__item-form__button"
-                  type="button"
-                  value="Enviar mensaje"
-                />
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="footer__copyright">
-          <p>
-            Desarrollado por
-            <a href="https://www.linkedin.com/in/charlyolicor/" target="_blank"
-              >Carlos Olivares</a
-            >
-            | En el program ONE de Oracle y Alura - © 2022
-          </p>
-        </div>
-      </footer>
+      <footer-component></footer-component>
     </div>
     <script type="module" src="./js/app.js"></script>
+    <script src="./js/components/header.js"></script>
+    <script src="./js/components/footer.js"></script>
   </body>
 </html>

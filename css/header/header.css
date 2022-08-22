@@ -59,14 +59,14 @@
   color: var(--medium-gray);
 }
 
-/* Login */
+/* Button */
 
-.header__login {
+.header__button-container {
   margin-left: auto;
   order: 3;
 }
 
-.header__login__button {
+.header__button {
   padding: 1.2em 5em;
   border: none;
   font-size: 0.9em;
@@ -92,7 +92,7 @@
     width: 20rem;
   }
 
-  .header__login__button {
+  .header__button {
     padding: 1.2em 3em;
   }
 }
@@ -123,18 +123,26 @@
   }
 
   /* Login */
-  .header__login {
+  .header__button-container {
     order: 2;
     margin-left: 0;
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 575px) {
   .header {
     padding: 2em 1em;
   }
 
   .header__logo {
     font-size: 1.3rem;
+  }
+
+  .header__button {
+    padding: 1em 1.5em;
+  }
+
+  .createProducts__title {
+    font-size: 1.5em;
   }
 }
