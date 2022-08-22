@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear producto</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/products/createProducts.css" />
+    <link rel="stylesheet" href="../../css/header/header.css" />
+    <link rel="stylesheet" href="../../css/footer/footer.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header-admin-component></header-admin-component>
+      <main class="main">
+        <section class="createProducts">
+          <div class="createProducts__container">
+            <h2 class="createProducts__title">Agregar Nuevo Producto</h2>
+            <form action="" class="createProducts__form">
+              <div class="createProducts__form-group">
+                <div class="createProducts__drop-image">
+                  <div class="createProducts__drop-image__content">
+                    <i class="fa-solid fa-image"></i>
+                    <br />
+                    <span class="drop-image__prompt">
+                      Arrastra o haz clic para subir una imagen para el producto
+                    </span>
+                  </div>
+                  <input
+                    class="drop-image__file"
+                    type="file"
+                    id="image"
+                    name="image"
+                    data-form="image"
+                  />
+                </div>
+              </div>
+              <div class="createProducts__form-group">
+                <label for="category">Categoría</label>
+                <input
+                  type="text"
+                  name="category"
+                  id="category"
+                  placeholder="Jeans Dama"
+                  data-form="category"
+                />
+              </div>
+              <div class="createProducts__form-group">
+                <label for="name">Nombre del producto</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nombre"
+                  data-form="name"
+                />
+              </div>
+              <div class="createProducts__form-group">
+                <label for="price">Precio</label>
+                <input
+                  type="text"
+                  name="price"
+                  id="price"
+                  maxlength="15"
+                  data-form="price"
+                  placeholder="$"
+                />
+              </div>
+              <div class="createProducts__form-group">
+                <label for="description">Descripción del producto</label>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                  placeholder="Describa brevemente el producto"
+                  data-form="description"
+                ></textarea>
+              </div>
+              <input
+                class="createProducts__form-submit"
+                type="button"
+                value="Agregar producto"
+              />
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer-component></footer-component>
+    </div>
+    <script type="module" src="../../js/app.js"></script>
+    <script src="../../js/components/headerAdmin.js"></script>
+    <script src="../../js/components/footer.js"></script>
+  </body>
+</html>
