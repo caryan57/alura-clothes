@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/login/login.css" />
+    <link rel="stylesheet" href="../../css/header/header.css" />
+    <link rel="stylesheet" href="../../css/footer/footer.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header-no-login-component></header-no-login-component>
+      <main class="main">
+        <section class="login">
+          <div class="login__container">
+            <h2 class="login__title">Inicie sesión</h2>
+            <form action="" class="login__form">
+              <div class="login__form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="" data-form="email" />
+              </div>
+              <div class="login__form-group">
+                <label for="password">Contraseña</label>
+                <input
+                  type="password"
+                  name="password"
+                  id=""
+                  data-form="password"
+                />
+              </div>
+              <input class="login__form-submit" type="button" value="Entrar" />
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer-component></footer-component>
+    </div>
+    <script src="../../js/components/headerNoLogin.js"></script>
+    <script src="../../js/components/footer.js"></script>
+  </body>
+</html>
