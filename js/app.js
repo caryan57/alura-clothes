@@ -1,8 +1,21 @@
 import { hideWrappedElements } from './helpers/hideWrappedElements.js';
 import { manageDropImage } from './helpers/dropImage.js';
+import { scrollAnimation } from './helpers/animateAnchor.js';
 
 const galleries = document.querySelectorAll('.carrousel__gallery');
-hideWrappedElements(galleries);
+
+if (galleries) {
+  hideWrappedElements(galleries);
+}
 
 const inputDropImage = document.querySelector('.drop-image__file');
-manageDropImage(inputDropImage);
+
+if (inputDropImage) {
+  manageDropImage(inputDropImage);
+}
+
+const heroBtnLink = document.querySelector('.hero__content__info-button');
+
+if (heroBtnLink) {
+  scrollAnimation(heroBtnLink);
+}
