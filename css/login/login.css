@@ -43,6 +43,10 @@
   background-color: transparent;
 }
 
+.login__form-group input.input--error {
+  margin-bottom: 0;
+}
+
 .login__form-submit {
   padding: 0.9em 1.5em;
   text-transform: uppercase;
