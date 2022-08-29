@@ -23,7 +23,7 @@ class HeaderAdmin extends HTMLElement {
               </button>
             </form>
             <div class="header__button-container">
-              <a href="../../pages/products/showProducts.html" class="header__button">Menu Admin</a>
+              <a href="../../pages/products/showProducts.html" class="header__button">Productos Admin</a>
             </div>
           </div>
     </header>

@@ -48,7 +48,9 @@ class Footer extends HTMLElement {
                     name="message"
                     type="text"
                     placeholder="Su nombre"
-                    maxlength="50"
+                    maxlength="40"
+                    data-form="name"
+                    required
                   />
                 </div>
                 <div class="footer__form--input">
@@ -58,13 +60,16 @@ class Footer extends HTMLElement {
                     name="message"
                     id="message"
                     cols="30"
-                    rows="10"
+                    rows="4"
+                    maxlength="120"
                     placeholder="Ingrese su mensaje"
+                    data-form="message"
+                    required
                   ></textarea>
                 </div>
                 <input
                   class="footer__item-form__button"
-                  type="button"
+                  type="submit"
                   value="Enviar mensaje"
                 />
               </form>
