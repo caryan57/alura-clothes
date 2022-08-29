@@ -54,3 +54,13 @@ a {
 .hidden {
   visibility: hidden;
 }
+
+.error--message {
+  color: var(--cherry-color);
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.input--error {
+  border-color: var(--cherry-color) !important;
+}
