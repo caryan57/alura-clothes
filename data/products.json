@@ -1,0 +1,157 @@
+{
+  "products": [
+    {
+      "id": "1cafcd20-f55f-45f2-acad-70a484355755",
+      "title": "Workday Brown Pants",
+      "category": "Men Footwear",
+      "price": 699,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/pants_1_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "09209a9c-2b3f-410c-8f10-383bce8c5616",
+      "title": "Classic Gray Man",
+      "category": "Men Footwear",
+      "price": 899,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/t-shirt_1_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "cb6b7b84-854a-4de0-a555-bc790430baec",
+      "title": "Black Polo Woman",
+      "category": "Woman Footwear",
+      "price": 699,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/t-shirt_1_woman.webp",
+      "description": "Clásica blusa negra de la marca"
+    },
+    {
+      "id": "c0017a7-f1d4-41cc-8e3e-5b237dd5a319",
+      "title": "Street Coral Pants",
+      "category": "Woman Footwear",
+      "price": 799,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/sweater_1_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "ec9b4425-3c9e-4952-bf00-1b2160eee778",
+      "title": "V-Neck Verano Slim",
+      "category": "Woman Footwear",
+      "price": 599,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/t-shirt_2_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "4ccbad18-8d0f-4747-9092-77b42c5adf9a",
+      "title": "Iconic Polo Gray",
+      "category": "Men Footwear",
+      "price": 719,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/shirt_2_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "a2254bda-c506-4b05-a395-838264a5852b",
+      "title": "Khaki Urban Fit",
+      "category": "Men Footwear",
+      "price": 1192,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/pants_3_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "802724fa-cac8-41af-b533-c0546c851554",
+      "title": "Refined Polo Green",
+      "category": "Men Footwear",
+      "price": 719,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/t-shirt_3_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "f66e0d71-c2ef-471a-979c-cdcebccdd506",
+      "title": "Urban Jacket Marine",
+      "category": "Men Footwear",
+      "price": 1839,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/jacket_1_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "1bd6a1ae-074f-449b-8861-7b2e501f5553",
+      "title": "Workday Jeans Man",
+      "category": "Men Footwear",
+      "price": 1032,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/jeans_1_man.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "34bf0dc4-64a0-4479-8b7d-de79366efa41",
+      "title": "Short Cap Dress",
+      "category": "Woman Footwear",
+      "price": 1290,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/dress_2_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "86ad7247-5ab6-4a57-bb87-8f6b635e9e0a",
+      "title": "Fore White Jacket",
+      "category": "Woman Footwear",
+      "price": 1179,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/jacket_1_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "614bb9e3-20c1-4fbb-ada9-768d6e310dd6",
+      "title": "Relaxed Khaki Verano",
+      "category": "Woman Footwear",
+      "price": 1099,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/pants_2_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "485bee81-72a3-4ecc-8fcb-f8879c9c2f77",
+      "title": "Iconic Woman Sweatshirt",
+      "category": "Woman Footwear",
+      "price": 899,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/sweater_2_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "b02d6593-031b-433a-a527-a119117d751b",
+      "title": "C-Neck Cotton Classic",
+      "category": "Woman Footwear",
+      "price": 719,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/sweater_3_woman.webp",
+      "description": "Un artículo de alta calidad con diseño original"
+    },
+    {
+      "id": "db350639-aa64-4906-89ba-49e9a5e56cdc",
+      "title": "Woman Verano Black Dress",
+      "category": "Woman Footwear",
+      "price": 1199,
+      "stock": 2,
+      "imageUrl": "../../assets/img/clothes/dress_3_woman.webp",
+      "description": "Un vestido casual para el día a día."
+    },
+    {
+      "id": "31dc0257-d389-45c0-9fdb-7c927df556c4",
+      "title": "Classic Coral Woman",
+      "category": "Woman Footwear",
+      "price": 699,
+      "stock": 5,
+      "imageUrl": "../../assets/img/clothes/t-shirt_3_woman.webp",
+      "description": "La mejor blusa coral de la marca"
+    }
+  ]
+}
