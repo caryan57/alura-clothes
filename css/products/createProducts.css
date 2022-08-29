@@ -24,7 +24,7 @@
 .createProducts__form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 .createProducts__form-group label {
@@ -33,10 +33,9 @@
 }
 
 .createProducts__form-group input {
-  margin-bottom: 1.8em;
   height: 56px;
   font-size: 1em;
-  border: none;
+  border: 1px solid var(--light-gray);
   padding: 1em;
 }
 
@@ -44,6 +43,7 @@
   border: none;
   padding: 1em;
   font-size: 1em;
+  resize: none;
 }
 
 .createProducts__form-submit {
