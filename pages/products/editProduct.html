@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crear producto</title>
+    <title>Editar producto</title>
     <link rel="stylesheet" href="../../css/reset.css" />
     <link
       rel="stylesheet"
@@ -30,7 +30,7 @@
       <main class="main">
         <section class="createProducts">
           <div class="createProducts__container">
-            <h2 class="createProducts__title">Agregar Nuevo Producto</h2>
+            <h2 class="createProducts__title">Editar Producto</h2>
             <form action="" class="createProducts__form">
               <div class="createProducts__form-group">
                 <div class="createProducts__drop-image">
@@ -56,7 +56,6 @@
                   type="text"
                   name="category"
                   id="category"
-                  placeholder="Jeans Dama"
                   maxlength="25"
                   data-inputValue-category
                   data-input="category"
@@ -69,7 +68,6 @@
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Nombre"
                   maxlength="20"
                   data-inputValue-title
                   data-input="title"
@@ -85,7 +83,6 @@
                   maxlength="15"
                   data-inputValue-price
                   data-input="price"
-                  placeholder="$"
                   pattern="^\d+"
                   required
                 />
@@ -100,7 +97,6 @@
                   pattern="^\d+"
                   data-inputValue-stock
                   data-input="stock"
-                  placeholder="pzs"
                   required
                 />
               </div>
@@ -111,7 +107,6 @@
                   id="description"
                   cols="30"
                   rows="4"
-                  placeholder="Describa brevemente el producto"
                   maxlength="150"
                   data-inputValue-description
                   data-input="description"
@@ -121,7 +116,7 @@
               <input
                 class="createProducts__form-submit"
                 type="submit"
-                value="Agregar producto"
+                value="Editar producto"
               />
             </form>
           </div>
@@ -129,16 +124,11 @@
       </main>
       <footer-component></footer-component>
     </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="../../js/app.js"></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
-      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
       type="module"
-      src="../../js/controllers/product-register.controller.js"
+      src="../../js/controllers/product-update.controller.js"
     ></script>
     <script src="../../js/components/headerAdmin.js"></script>
     <script src="../../js/components/footer.js"></script>

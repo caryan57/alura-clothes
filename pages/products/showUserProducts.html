@@ -27,23 +27,41 @@
   </head>
   <body>
     <div class="app">
-      <header-no-login-component></header-no-login-component>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <i class="logo-icon cherry fa-solid fa-shirt"></i>
+            <a class="logo-text" href="/"
+              ><h1><span class="cherry">Alura</span>Clothes</h1></a
+            >
+          </div>
+          <form action="" class="header__search-form">
+            <input
+              type="text"
+              class="header__search-form__input"
+              placeholder="¿Qué deseas buscar?"
+              maxlength="34"
+            />
+            <button class="header__search-form__button" type="submit" value="">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <div class="header__button-container">
+            <a href="../login/login.html" class="header__button">Login</a>
+          </div>
+        </div>
+      </header>
       <main class="main">
         <section class="full-carrousel">
           <div class="carrousel__title">
             <h3>Todos los productos</h3>
-            <div class="carrousel__button-add">
-              <a href="./createProducts.html">Agregar Producto</a>
-            </div>
           </div>
           <ul class="full-carrousel__gallery"></ul>
         </section>
       </main>
       <footer-component></footer-component>
     </div>
-    <script src="../../js/components/headerNoLogin.js"></script>
     <script src="../../js/components/footer.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script
       type="module"
       src="../../js/controllers/products.controller.js"
