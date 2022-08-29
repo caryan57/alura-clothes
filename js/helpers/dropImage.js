@@ -80,6 +80,8 @@ function updateThumbnail(dropContainer, file) {
 
   //Add visible thumbnail to the DOM
   dropContainer.appendChild(thumbnailElement);
+
+  // console.log(file);
 }
 
 function createThumbnail() {
