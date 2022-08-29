@@ -67,7 +67,70 @@ const createAdminProductItem = (id, imageUrl, title, price, category, url) => {
 
 const gallery = document.querySelector('.full-carrousel__gallery');
 const currentLocation = document.location;
+const searchForm = document.querySelector('.header__search-form');
 
+// Find items function
+const findItemsBySearch = () => {
+  searchForm.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // Delete previous items
+    const prevGalleryItems = gallery.querySelectorAll(
+      '.carrousel__gallery__item'
+    );
+
+    prevGalleryItems.forEach(item => {
+      item.remove();
+    });
+
+    const searchValue = document.querySelector(
+      '.header__search-form__input'
+    ).value;
+
+    productsServices.findProducts(searchValue).then(data => {
+      if (Object.keys(data).length === 0) {
+        createNoProductsMsg();
+      } else {
+        // Remove not found message if existed before
+        const notFoundMessage = document.querySelector(
+          '.gallery__no-products-message'
+        );
+
+        if (notFoundMessage) {
+          notFoundMessage.remove();
+        }
+
+        // Create elements found!
+        data.forEach(item => {
+          if (currentLocation.href.includes('showUserProducts')) {
+            const productElement = createUserProductItem(
+              item.id,
+              item.imageUrl,
+              item.title,
+              item.price,
+              item.category
+            );
+            gallery.appendChild(productElement);
+          }
+        });
+      }
+    });
+  });
+
+  const createNoProductsMsg = () => {
+    const element = document.createElement('li');
+    element.classList.add('gallery__no-products-message');
+    element.innerHTML = `
+    <h2>No hubo resultados, vuelva a intentarlo</h2>
+    <a href="./showUserProducts.html">Ver todo</a>
+    `;
+    gallery.appendChild(element);
+  };
+};
+
+findItemsBySearch();
+
+// Create elements depending of json elements
 productsServices
   .getProducts()
   .then(data => {

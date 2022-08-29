@@ -55,6 +55,10 @@ const updateProduct = (
   });
 };
 
+const findProducts = value => {
+  return fetch(`${url}?q=${value}`).then(response => response.json());
+};
+
 const deleteProduct = id => {
   return fetch(`${url}/${id}`, { method: 'DELETE' });
 };
@@ -64,5 +68,6 @@ export const productsServices = {
   getProduct,
   registerProduct,
   updateProduct,
+  findProducts,
   deleteProduct,
 };

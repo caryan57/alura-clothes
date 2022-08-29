@@ -153,5 +153,22 @@
       "imageUrl": "../../assets/img/clothes/t-shirt_3_woman.webp",
       "description": "La mejor blusa coral de la marca"
     }
+  ],
+  "users": [
+    {
+      "id": "b3acaf81-2bee-4248-bd92-b793d0aa59c8",
+      "email": "admin@email.com",
+      "password": "@dm1nSt0r3"
+    },
+    {
+      "email": "email@gmail.com",
+      "password": "$2a$10$Z7A.8Twh9oR4MrmYgSUAEOcjBW.8QI7ettSc4MSJmqDliJcquYsMq",
+      "id": "Fe7dXbA"
+    },
+    {
+      "email": "admin@test.com",
+      "password": "$2a$10$jQj7/I1JdeGMRzhYof2CROuuzsIwAzSKjKDvCHWosx4nbxVT5asyG",
+      "id": "8kcGsoa"
+    }
   ]
 }

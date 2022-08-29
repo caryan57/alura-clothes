@@ -1,11 +1,31 @@
+import { userServices } from '../../service/users-service.js';
+
 const loginForm = document.querySelector('.login__form');
 
-function loginSubmit() {
+const loginSubmit = async () => {
   loginForm.addEventListener('submit', e => {
     e.preventDefault();
 
-    window.location.href = '../../../pages/products/showProducts.html';
+    const emailInput = document.querySelector('#email');
+    const passwordInput = document.querySelector('#password');
+
+    userServices
+      .loginUser(emailInput.value, passwordInput.value)
+      .then(response => response.json())
+      .then(data => {
+        if (data.accessToken === undefined) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'El email o la contraseña no son válidos',
+          });
+        } else {
+          const token = data.accessToken;
+          sessionStorage.setItem('accessToken', token);
+          window.location.href = '../../../pages/products/showProducts.html';
+        }
+      });
   });
-}
+};
 
 loginSubmit();

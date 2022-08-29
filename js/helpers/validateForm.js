@@ -51,8 +51,6 @@ export function validateForm(inputs) {
       if (!input.validity.valid) {
         // Add class of error to the input
         input.classList.add('input--error');
-
-        console.log(input.validity);
         // Create error span if does not exists
         if (errorSpan == null) {
           errorTypes.forEach(errorType => {

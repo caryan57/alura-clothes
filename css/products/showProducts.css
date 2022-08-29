@@ -56,3 +56,18 @@
 .carrousel__button-add a {
   color: inherit;
 }
+
+.gallery__no-products-message {
+  text-align: center;
+}
+
+.gallery__no-products-message h2 {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.gallery__no-products-message a {
+  color: white;
+  padding: 1em 3em;
+  background-color: var(--cherry-color);
+}
