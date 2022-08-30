@@ -22,6 +22,7 @@ const loginSubmit = async () => {
         } else {
           const token = data.accessToken;
           sessionStorage.setItem('accessToken', token);
+          sessionStorage.setItem('authState', true);
           window.location.href = '../../../pages/products/showProducts.html';
         }
       });
