@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
           <div class="footer__items">
             <div class="footer__item-logo">
               <i class="logo-icon cherry fa-solid fa-shirt"></i>
-              <a class="logo-text" href="http://"
+              <a class="logo-text" href="https://caryan57.github.io/alura-clothes/"
                 ><p><span class="cherry">Alura</span>Clothes</p></a
               >
             </div>

@@ -8,5 +8,5 @@ app.style.display = 'none';
 if (authState != 0) {
   app.style.display = 'block';
 } else {
-  window.location.replace('/');
+  window.location.replace('./pages/');
 }

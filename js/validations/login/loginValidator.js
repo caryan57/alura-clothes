@@ -10,7 +10,8 @@ const loginSubmit = async () => {
     const passwordInput = document.querySelector('#password');
 
     sessionStorage.setItem('authState', 1);
-    window.location.href = '../../../pages/products/showProducts.html';
+    window.location.href =
+      'https://caryan57.github.io/alura-clothes/pages/products/showProducts.html';
 
     /*
     userServices
