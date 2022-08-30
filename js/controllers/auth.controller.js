@@ -1,11 +1,12 @@
-const authToken = sessionStorage.getItem('accessToken');
+// const authToken = sessionStorage.getItem('accessToken');
 const authState = sessionStorage.getItem('authState');
+console.log(authState);
 
 const app = document.querySelector('.app');
 app.style.display = 'none';
 
-if (authToken == null || authState == null) {
-  window.location.replace('/');
-} else {
+if (authState != 0) {
   app.style.display = 'block';
+} else {
+  window.location.replace('/');
 }

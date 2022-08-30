@@ -1,4 +1,6 @@
-const url = 'http://localhost:3000/signin';
+/*
+const url = 'https://my-json-server.typicode.com/caryan57/alura-clothes/users';
+
 const loginUser = (email, password) => {
   return fetch(url, {
     headers: { 'Content-Type': 'application/json' },
@@ -13,3 +15,4 @@ const loginUser = (email, password) => {
 export const userServices = {
   loginUser,
 };
+*/

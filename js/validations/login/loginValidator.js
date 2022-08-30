@@ -1,4 +1,4 @@
-import { userServices } from '../../service/users-service.js';
+/*import { userServices } from '../../service/users-service.js';*/
 
 const loginForm = document.querySelector('.login__form');
 
@@ -9,6 +9,10 @@ const loginSubmit = async () => {
     const emailInput = document.querySelector('#email');
     const passwordInput = document.querySelector('#password');
 
+    sessionStorage.setItem('authState', 1);
+    window.location.href = '../../../pages/products/showProducts.html';
+
+    /*
     userServices
       .loginUser(emailInput.value, passwordInput.value)
       .then(response => response.json())
@@ -25,7 +29,7 @@ const loginSubmit = async () => {
           sessionStorage.setItem('authState', true);
           window.location.href = '../../../pages/products/showProducts.html';
         }
-      });
+      });*/
   });
 };
 
